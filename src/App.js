@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component  } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Link, NavLink,Redirect,Prompt } from "react-router-dom";
 const User=(params)=> <h1>Welcome user {params.username}</h1>;
